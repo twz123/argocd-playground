@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: pause
 spec:
+  replicas: 2
   template:
     spec:
       containers:
