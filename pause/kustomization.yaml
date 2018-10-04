@@ -1,0 +1,8 @@
+namespace: playground
+
+commonLabels:
+  app.kubernetes.io/name: pause
+  app.kubernetes.io/instance: pause-playground-01
+
+resources:
+- deployment.yaml
